@@ -1,1 +1,2 @@
-Before connecting to AWS environmnet a few configurations of the environment need to be performed.
+1. AWS services file contains inforomation about aws services that are required for this lab.
+2.  
