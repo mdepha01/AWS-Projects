@@ -23,3 +23,14 @@ On the Specify template page, choose a stack template by using one of the follow
 
 - Use a sample template : Select a sample template from a collection of templates provided by CloudFormation to get you started.
 - skip other configuration then click create.
+
+**Setting up Redshift Query Editor as the Redshift Client:**
+
+Once all the resources have been successfully created, Qeury Editor2 can be used connect to the Redshift cluster:
+
+- On the left-hand side, click on the Redshift environment you want to connect to.
+- A pop-up window should have opened.
+
+Enter the Database name and user name. Click connect. These credentials should be used for both the Serverless endpoint (workgroup-xxxxxxx) as well as the provisioned cluster (consumercluster-xxxxxxxxxx).
+
+
