@@ -13,4 +13,6 @@
 
 **COPY** command  loads large amounts of data effectively from Amazon S3 into Amazon Redshift. A single COPY command can load from multiple files into one table. It automatically loads the data in parallel from all the files present in the S3 location you provide.
 
-Copy, loads data into an empty table:
+Copy command, loads data into an empty table:
+
+- Run the FromS3.sql file in the Redshift query editor.
