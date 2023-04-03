@@ -1,0 +1,6 @@
+The AWS resources needed to run these labs include:
+
+1. An Amazon Redshift Serverless endpoint in a new networking environment that includes a VPC, 3 Subnets, an Internet Gateway, and a Security Group to enable local access to your cluster.
+2. An Amazon Redshift Provisioned cluster in the same networking environment for use in the data sharing lab.
+3. An Amazon EC2 instance containing some tools needed for this lab for the migration and Power BI lab.
+4. A default role attached to your environments.
