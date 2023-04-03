@@ -8,3 +8,9 @@
 - **Loading data from S3 to Redshift.** You will use this process for loading 7 tables out of 8 tables created in above step.
 - **Loading data from desktop file to Redshift.** You will use this process for loading 1 table out of 8 created in above step i.e. nation table.
 - Both methods are used to load data to Redshift.
+
+**Loading Data from S3:**
+
+**COPY** command  loads large amounts of data effectively from Amazon S3 into Amazon Redshift. A single COPY command can load from multiple files into one table. It automatically loads the data in parallel from all the files present in the S3 location you provide.
+
+Copy, loads data into an empty table:
