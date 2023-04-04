@@ -38,3 +38,16 @@ Copy command, loads data into an empty table:
 - **Check Ignore header rows**
 - **Done**
 - **Target table options** select your serverless work group -- Database = dev -- Schema = public -- Table = nation -- Load data -- Notification of Loading data from a local file succeeded would be shown on top.
+
+**Running Analyze**
+
+To collect table statistics after loading data to a table analyze can be used however, it might impact performance.
+Redshift automatiacally runs the analyze query during low peak hours. The analyze query can be seen below.
+
+analyze table_name ; 
+
+
+**Vacuum**
+
+After running a table delete Redshift does a soft deletion i.e the rows are not actually deleted however, they are marked for deletion hence during an update
+the new data is inserted into the marked rows. To reclaim space immediatelty after deletion Vacuum query can be ran.
